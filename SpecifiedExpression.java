@@ -1,4 +1,4 @@
-public class Expsum {             // create class
+public class SpecifiedExpression {             // create class
 public static void main(String[] args) {     //main
 	//local variable
 	float a=25.5f,

@@ -22,8 +22,3 @@ public class CreateObject {
 			    System.out.println("Result: " + result);
 			  }
 			}
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privac

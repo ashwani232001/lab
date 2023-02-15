@@ -1,0 +1,28 @@
+public class Constructor {
+
+	// Default 
+	Constructor(){
+			System.out.println(" This is Default ");
+		 }
+		
+	   // parameterized 
+		 int age;
+		 String name;
+		 
+		 Constructor( int a , String n){	 
+			 age = a;
+			 name = n;		 
+		   } 
+		 
+		 void show(){
+			 System.out.println(age+ " "+ name);}
+				 	 
+		 public static void main(String[] args) {
+			
+			 // this object foe default
+			 Constructor o = new Constructor(); 
+			 // this for parameterized
+			 Constructor ob = new Constructor( 26 , "Nikhil");
+			 ob.show(); 
+		 }
+	   }
